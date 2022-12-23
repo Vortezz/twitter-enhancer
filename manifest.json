@@ -1,0 +1,22 @@
+{
+    "manifest_version": 2,
+    "name": "Twitter Enhancer",
+    "description": "Enhance your Twitter frontend! Remove useless adds, and view only useful things.",
+    "version": "1.0",
+    "icons": {
+        "16": "images/logo-16.png",
+        "32": "images/logo-32.png",
+        "48": "images/logo-48.png",
+        "128": "images/logo-128.png"
+    },
+    "content_scripts": [
+        {
+            "js": [
+                "scripts/content.js"
+            ],
+            "matches": [
+                "https://twitter.com/*"
+            ]
+        }
+    ]
+}
