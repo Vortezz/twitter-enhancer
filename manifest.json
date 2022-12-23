@@ -1,5 +1,5 @@
 {
-    "manifest_version": 2,
+    "manifest_version": 3,
     "name": "Twitter Enhancer",
     "description": "Enhance your Twitter frontend! Remove useless adds, and view only useful things.",
     "version": "1.0",
